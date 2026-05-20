@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vishvand Hardware Ltd</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-28 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-4 group">
+                <img src="logo.png" alt="Logo" class="h-20 w-20 object-contain rounded-xl shadow-md border border-slate-100 p-1 group-hover:scale-105 transition-all duration-300">
+                <div class="flex flex-col">
+                    <span class="text-2xl font-black tracking-tight text-slate-900 leading-none">VISHVAND</span>
+                    <span class="text-xs font-bold text-slate-500 tracking-widest mt-1">HARDWARE LTD</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-bold tracking-wide uppercase">
+                <a href="index.html" class="text-slate-600 hover:text-blue-700 pb-1 transition-all">Home</a>
+                <a href="products.html" class="text-slate-600 hover:text-blue-700 pb-1 transition-all">In-Store Stock</a>
+                <a href="about.html" class="text-slate-600 hover:text-blue-700 pb-1 transition-all">About Us</a>
+                <a href="request-quote.html" class="text-slate-600 hover:text-blue-700 pb-1 transition-all">Request Quote</a>
+                <a href="contact.html" class="text-blue-700 border-b-2 border-blue-700 pb-1">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
+            
+            <div class="lg:col-span-5 bg-white border border-slate-200 p-10 rounded-2xl shadow-xl flex flex-col justify-between hover:shadow-2xl transition-all duration-300">
+                <div class="space-y-8">
+                    <div class="flex items-center gap-4 pb-6 border-b border-slate-100">
+                        <img src="logo.png" alt="Contact Lion Logo" class="h-16 w-16 object-contain">
+                        <div>
+                            <h1 class="text-2xl font-black text-slate-950 uppercase tracking-tight">Direct Depot</h1>
+                            <p class="text-slate-500 text-xs font-medium mt-0.5">Vishvand Hardware Limited [cite: 1]</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                            <i class="fa-solid fa-location-dot text-blue-700"></i> Corporate Location
+                        </h4>
+                        <p class="text-base font-extrabold text-slate-950">Dar es Salaam</p>
+                        <p class="text-xs text-slate-500 font-medium">Tanzania [cite: 4]</p>
+                    </div>
+
+                    <div class="space-y-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-blue-700"></i> Active Counter Desk
+                        </h4>
+                        <p class="text-lg font-black text-blue-700 tracking-wide">+255 (0) 665 351 910</p>
+                        <p class="text-xs text-slate-500 font-medium">Call/WhatsApp Enabled</p>
+                    </div>
+
+                    <div class="space-y-2 p-4 rounded-xl hover:bg-slate-50 transition-colors">
+                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                            <i class="fa-solid fa-envelope text-blue-700"></i> Digital Intake Mail
+                        </h4>
+                        <p class="text-sm font-extrabold text-slate-950 break-all">vishvandhardware@gmail.com [cite: 6]</p>
+                        <p class="text-xs text-slate-500 font-medium">Corporate Intake Desk [cite: 6]</p>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-4 bg-blue-50/50 rounded-xl border border-blue-100/50 text-[11px] font-medium text-slate-500 text-center uppercase tracking-wide">
+                    <i class="fa-solid fa-clock text-blue-700 mr-1"></i> Trading Hours: Mon - Sat
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 bg-white border border-slate-200 p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <h2 class="text-2xl font-black text-slate-950 uppercase tracking-tight mb-2">Send an Instant Message</h2>
+                    <p class="text-slate-500 text-xs font-medium mb-6">Have general stock questions? Complete this dynamic dispatch form and get connected.</p>
+                    
+                    <form action="#" method="POST" class="space-y-5">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-xs font-black text-slate-700 uppercase tracking-widest mb-2">Your Name</label>
+                                <input type="text" class="w-full border border-slate-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-blue-700 transition-all" placeholder="Enter full name" required>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-black text-slate-700 uppercase tracking-widest mb-2">Email Address</label>
+                                <input type="email" class="w-full border border-slate-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-blue-700 transition-all" placeholder="name@company.com" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black text-slate-700 uppercase tracking-widest mb-2">Subject</label>
+                            <input type="text" class="w-full border border-slate-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-blue-700 transition-all" placeholder="In-store stock lookup..." required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black text-slate-700 uppercase tracking-widest mb-2">Message Description</label>
+                            <textarea rows="4" class="w-full border border-slate-300 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-blue-700 transition-all placeholder-slate-400" placeholder="Type your inquiry here..." required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-slate-950 hover:bg-blue-700 text-white text-xs font-black uppercase tracking-widest py-4 rounded-xl transition-all duration-300 shadow">
+                            Dispatch Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 text-center text-[10px] uppercase tracking-widest font-bold text-slate-600">
+            &copy; 2026 Vishvand Hardware Ltd. All rights reserved. [cite: 8]
+        </div>
+    </footer>
+
+</body>
+</html>
